@@ -1,0 +1,11 @@
+name: {add your name here}
+location: {Earth}
+phone: {number}
+email: {email}
+links:
+  - label: Linkedin
+    url: {url for your linkedin}
+  - label: Github
+    url: {add yo url}
+  - label: Portfolio
+    url: {add your portfolio website link}
