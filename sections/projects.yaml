@@ -1,0 +1,74 @@
+# Top-level sections: experience and projects
+experience:
+  - role: "<ROLE_TITLE>"
+    company: "<COMPANY_NAME>"
+    location: "<CITY, STATE/REGION or 'Remote'>"
+    start: "<MONTH YYYY>"
+    end: "<MONTH YYYY or 'Present'>"
+    bullets:
+      - "<Action — what you did, tools used, and the outcome or impact; quantify when possible (e.g., saved X hours / reduced Y%)>"
+      - "<Process improvement or automation — scope, frequency, and time/cost saved>"
+      - "<Collaboration / stakeholder work — who you dealt with and what deliverable or handover you produced>"
+      - "<Measurement or validation — how you measured success (KPIs, tests, user acceptance)>"
+
+  - role: "<ROLE_TITLE>"
+    company: "<COMPANY_NAME>"
+    location: "<CITY, STATE/REGION or leave blank>"
+    start: "<MONTH YYYY>"
+    end: "<MONTH YYYY>"
+    bullets:
+      - "<Data work — cleaning, modelling, tools/libraries, and insights produced>"
+      - "<Reporting / dashboards — frequency, audience, and business value>"
+      - "<Other accomplishments — client work, presentations, training>"
+
+projects:
+  - name: "<PROJECT_NAME>"
+    stack: "<Tech stack, libraries, frameworks>"
+    url: "<Live demo or app URL or leave blank>"
+    repo: "<GitHub/Repo URL or leave blank>"
+    summary: "<One-line summary of project purpose and primary user benefit>"
+    bullets:
+      - "<What you built (feature/analysis/model) — method/algorithm and libraries used>"
+      - "<Data — source, size, preprocessing steps; mention validation or test splits>"
+      - "<Outcome — metrics, impact, or user benefit; quantify when possible>"
+      - "<Deployment / infra — how it is hosted or run (Streamlit, Docker, scheduled jobs)>"
+    metrics: "<Optional: key metrics (accuracy, reduction in time, users), or leave blank>"
+    ethics_note: "<Optional: privacy, dataset provenance, clinical validation, or 'N/A'>"
+
+  - name: "<PROJECT_NAME>"
+    stack: "<Tech stack>"
+    url: ""
+    repo: ""
+    summary: "<One-line summary>"
+    bullets:
+      - "<Feature / analytic / model>"
+      - "<Data & evaluation details>"
+      - "<Impact / deployment>"
+    metrics: ""
+    ethics_note: ""
+
+# Tips:
+# - Replace angle-bracket placeholders with concrete values.
+# - For sensitive domains (medical, legal), include dataset provenance and validation before public claims.
+# - Prefer metrics like hours saved, % improvement, user counts, and model evaluation numbers (precision, recall, AUC).
+
+# - name: Semiconductor Industry Case Study Dashboard
+#   stack: Python, Pandas, Streamlit
+#   url: https://sd-insights.streamlit.app/
+#   bullets:
+#     - Built a dashboard comparing financial KPIs including revenue, cost of goods sold (COGS), inventory, and cash flow across Western Digital, Micron, Intel, and TSMC.
+#     - Processed and cleaned Macrotrends datasets to deliver variance analysis, quarterly KPI reporting, and trend-based forecasting metrics.
+
+# - name: Ridezilla, Strava Ride Companion
+#   stack: Python, Streamlit, REST API
+#   url: https://ridezilla.streamlit.app/
+#   bullets:
+#     - Built an interactive analytics dashboard integrating the Strava API to track cycling performance over time.
+#     - Implemented ride prediction, underperformance detection, heatmaps, and automated monthly recaps.
+
+# - name: NeuroAsha, Dementia Companion
+#   stack: Python, CNN, Large Language Models
+#   url: ""
+#   bullets:
+#     - Designed a CNN-based Alzheimer's MRI classification model reaching approximately 99% accuracy on clinical datasets.
+#     - Integrated LLM-based symptom tracking for early dementia prediction and longitudinal monitoring.
