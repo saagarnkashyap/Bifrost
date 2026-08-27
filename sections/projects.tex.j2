@@ -1,0 +1,18 @@
+%% if projects
+\rsection{<< headings.projects >>}
+%% for p in projects
+%% if p.url and page.show_links_in_projects
+\rheading{<< p.name >> \normalfont\textbar{} \textit{\small << p.stack >>}}{\small\href{<< p.url >>}{link}}
+%% else
+\rheading{<< p.name >> \normalfont\textbar{} \textit{\small << p.stack >>}}{}
+%% endif
+\begin{rbullets}
+%% for bullet in p.bullets
+  \item << bullet >>
+%% endfor
+\end{rbullets}
+%% if not loop.last
+\vspace{4pt}
+%% endif
+%% endfor
+%% endif
