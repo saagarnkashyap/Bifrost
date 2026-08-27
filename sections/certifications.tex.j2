@@ -1,0 +1,12 @@
+%% if certifications
+\rsection{<< headings.certifications >>}
+%% if page.compact_certifications
+{\small << certifications | map(attribute='name') | join(' \\textbullet{} ') >>\par}
+%% else
+\begin{rbullets}
+%% for c in certifications
+  \item << c.name >>, << c.issuer >>
+%% endfor
+\end{rbullets}
+%% endif
+%% endif
