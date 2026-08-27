@@ -1,0 +1,21 @@
+- role: "<ROLE_TITLE>"
+  company: "<COMPANY_NAME>"
+  location: "<CITY, STATE/REGION or 'Remote'>"
+  start: "<MONTH YYYY>"
+  end: "<MONTH YYYY or 'Present'>"
+  bullets:
+    - "<ACCOMPLISHMENT 1 — describe what you did, include tools/tech, and quantify impact if possible (e.g., reduced X by Y% or saved Z hours/year)>"
+    - "<ACCOMPLISHMENT 2 — process improvements, automation, or rebuilt workflows; include time or cost savings and tools used>"
+    - "<ACCOMPLISHMENT 3 — product or feature you built (e.g., AI agent, dashboard); describe user benefit and outcome>"
+    - "<ACCOMPLISHMENT 4 — automation of recurring tasks, reporting, or publishing; include outcome and frequency (weekly/monthly)>"
+    - "<ACCOMPLISHMENT 5 — stakeholder work: requirements gathering, user validation, handover documentation, training>"
+
+- role: "<ROLE_TITLE>"
+  company: "<COMPANY_NAME>"
+  location: "<CITY, STATE/REGION or leave blank if N/A>"
+  start: "<MONTH YYYY>"
+  end: "<MONTH YYYY>"
+  bullets:
+    - "<ACCOMPLISHMENT 1 — data cleaning, modeling, or analysis tasks; mention methods or libraries used>"
+    - "<ACCOMPLISHMENT 2 — dashboards/reports built and decision impact (KPI tracking, forecasting inputs)>"
+    - "<ACCOMPLISHMENT 3 — any client-facing or collaboration highlights>"
