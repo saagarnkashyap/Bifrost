@@ -1,0 +1,8 @@
+%% if skills
+\rsection{<< headings.skills >>}
+{\small
+%% for s in skills
+\textbf{<< s.group >>:} << s['items'] | join(', ') >>\par\vspace{1pt}
+%% endfor
+}
+%% endif
