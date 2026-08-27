@@ -1,3 +1,5 @@
+
+
 - role: "<ROLE_TITLE>"
   company: "<COMPANY_NAME>"
   location: "<CITY, STATE/REGION or 'Remote'>"
@@ -19,3 +21,26 @@
     - "<ACCOMPLISHMENT 1 — data cleaning, modeling, or analysis tasks; mention methods or libraries used>"
     - "<ACCOMPLISHMENT 2 — dashboards/reports built and decision impact (KPI tracking, forecasting inputs)>"
     - "<ACCOMPLISHMENT 3 — any client-facing or collaboration highlights>"
+
+
+
+# - role: Data Analyst Intern, Planning Systems
+#   company: GlobalFoundries
+#   location: Bangalore, India
+#   start: January 2026
+#   end: Present
+#   bullets:
+#     - Automated seven recurring supply chain planning and finance reports using Python, Power BI, and Power Automate, cutting manual effort by roughly 85% and saving an estimated 587 hours a year.
+#     - Rebuilt the weekly work-in-progress (WIP) and backlog-to-start cost projection process, removing approximately 150 hours of manual data prep a year and standardizing the cost calculations behind finance reporting.
+#     - Built AI agents that answer inventory and production planning questions on demand, giving analysts self-service access to data that used to require a manual pull.
+#     - Automated master production schedule (MPS) data prep and publication, plus dashboards comparing cycle-over-cycle schedules against budget and forecast, replacing hand-built decks with a repeatable template.
+#     - Gathered requirements from finance and planning stakeholders, ran user validation, and authored handover documentation so the team could run the tools independently.
+
+# - role: Analytical Consulting Intern
+#   company: Tiger Analytics
+#   location: ""
+#   start: August 2025
+#   end: October 2025
+#   bullets:
+#     - Performed data cleaning, data modeling, and variance analysis on client datasets to identify drivers behind performance gaps.
+#     - Built dashboards and recurring reports that translated client data into KPI tracking and forecasting inputs for business decision-makers.
