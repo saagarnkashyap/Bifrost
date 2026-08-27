@@ -1,0 +1,8 @@
+- group: Business Analysis
+  items: [Requirements Gathering, Stakeholder Management, Process Improvement, Variance Analysis, Root Cause Analysis, KPI Reporting, User Acceptance Testing, Documentation]
+- group: Data and BI
+  items: [Power BI, Power Query, DAX, Streamlit, Excel (Advanced), Matplotlib, Seaborn, Data Modeling, Data Cleaning]
+- group: Programming
+  items: ["Python (Pandas, NumPy, openpyxl)", SQL, R]
+- group: Automation and AI
+  items: [Power Automate, Copilot Studio, AI Agents, SharePoint, Process Automation]
