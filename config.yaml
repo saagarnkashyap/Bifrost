@@ -1,0 +1,26 @@
+# Which sections appear, and in what order.
+section_order:
+  - summary
+  - skills
+  - experience
+  - projects
+  - education
+  - certifications
+  - volunteering
+
+# Heading printed above each section.
+headings:
+  summary: SUMMARY
+  skills: SKILLS
+  experience: EXPERIENCE
+  projects: PROJECTS
+  education: EDUCATION
+  certifications: CERTIFICATIONS
+  volunteering: LEADERSHIP AND VOLUNTEERING
+
+page:
+  fontsize: 10pt
+  margin: 0.45in
+  show_links_in_projects: true
+  section_spacing: 4pt           # vertical gap above each section heading
+  compact_certifications: true   # one line instead of bullets (saves space)
