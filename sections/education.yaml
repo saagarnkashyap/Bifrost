@@ -1,0 +1,34 @@
+# - degree: Bachelor of Engineering, Computer Science and Engineering
+#   institution: Vellore Institute of Technology, Andhra Pradesh
+#   start: "2022"
+#   end: "2026"
+#   detail: "CGPA: 8.04"
+# - degree: Pre-University
+#   institution: Miranda Composite PU College
+#   start: "2020"
+#   end: "2022"
+#   detail: "86%"
+education:
+  - degree: "<Degree and Major (e.g., Bachelor of Engineering, Computer Science)>"
+    institution: "<Institution Name (e.g., Vellore Institute of Technology)>"
+    location: "<City, State, Country or leave blank>"
+    start: "<Start year or month YYYY (e.g., 2022)>"
+    end: "<End year or month YYYY or 'Present' (e.g., 2026)>"
+    detail: "<GPA, percentage, honors, or short note (e.g., CGPA: 7.75/10)>"
+    notable_courses:
+      - "<Course 1 — optional>"
+      - "<Course 2 — optional>"
+    thesis: "<Thesis or major project title — optional>"
+    activities: "<Clubs, societies, exchange programs — optional>"
+    notes: "<Awards, scholarships, or other relevant education notes — optional>"
+
+  - degree: "<Degree or Certification (e.g., Pre-University)>"
+    institution: "<Institution Name (e.g., Miranda Composite PU College)>"
+    location: "<City, State, Country or leave blank>"
+    start: "<Start year or month YYYY>"
+    end: "<End year or month YYYY>"
+    detail: "<Percentage, grade, or honors (e.g., 86%)>"
+    notable_courses: []
+    thesis: ""
+    activities: ""
+    notes: ""
