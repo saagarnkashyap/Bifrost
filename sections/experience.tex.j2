@@ -1,0 +1,15 @@
+%% if experience
+\rsection{<< headings.experience >>}
+%% for job in experience
+\rheading{<< job.role >>}{<< job.start >> -- << job.end >>}
+\rsubheading{<< job.company >>}{<< job.location >>}
+\begin{rbullets}
+%% for bullet in job.bullets
+  \item << bullet >>
+%% endfor
+\end{rbullets}
+%% if not loop.last
+\vspace{4pt}
+%% endif
+%% endfor
+%% endif
